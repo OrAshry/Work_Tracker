@@ -84,3 +84,9 @@ I'm now a computer science student, and this was the project that started it all
 ## 📝 License
 
 This was a personal, non-commercial project — feel free to use or improve it for learning or similar real-world needs.
+
+---
+
+🙌 Acknowledgments
+
+Thanks to the person who inspired this — for sharing a real-world challenge that pushed me to build something meaningful.
