@@ -78,3 +78,9 @@ I'm now a computer science student, and this was the project that started it all
 3. Run the script:
    ```bash
    python3 my_work_tracker.py
+
+---
+
+## 📝 License
+
+This was a personal, non-commercial project — feel free to use or improve it for learning or similar real-world needs.
