@@ -1,4 +1,5 @@
 # 🧾 My Work Tracker
+![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
 
 **My Work Tracker** is a Python desktop application designed for appraisers to easily track their workday details — from customer visits to appraisal values, driving distance, and more.
 
