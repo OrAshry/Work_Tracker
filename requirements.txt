@@ -1,0 +1,4 @@
+python >= 3.6
+tkinter (built-in standard library)
+sqlite3 (built-in standard library)
+
