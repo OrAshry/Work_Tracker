@@ -79,10 +79,8 @@ I'm now a computer science student, and this was the project that started it all
    ```bash
    git clone https://github.com/OrAshry/Work_Tracker.git
    cd Work_Tracker
-   pip install -r requirements.txt
-   python3 my_work_tracker.py
-
-
+3. Run the script:
+    python3 my_work_tracker.py
 
 ---
 
