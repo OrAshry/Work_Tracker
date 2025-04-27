@@ -80,6 +80,7 @@ I'm now a computer science student, and this was the project that started it all
    git clone https://github.com/OrAshry/Work_Tracker.git
    cd Work_Tracker
 3. Run the script:
+    ```bash
     python3 my_work_tracker.py
 
 ---
