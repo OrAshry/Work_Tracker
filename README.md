@@ -3,7 +3,7 @@
 
 **My Work Tracker** is a Python desktop application designed for appraisers to easily track their workday details — from customer visits to appraisal values, driving distance, and more.
 
-It was created as a passion project in 2020 to help someone close to me automate their workflow and reduce hours of monthly manual calculations. This project ended up being my first ever programming experience, and it sparked my path toward studying computer science.
+It was created as a passion project in 2021 to help someone close to me automate their workflow and reduce hours of monthly manual calculations. This project ended up being my first ever programming experience, and it sparked my path toward studying computer science.
 
 ---
 
