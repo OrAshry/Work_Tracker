@@ -1,4 +1,4 @@
-# 🧾 My Work Tracker
+# Work Tracker
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
 
 **My Work Tracker** is a Python desktop application designed for appraisers to easily track their workday details — from customer visits to appraisal values, driving distance, and more.
@@ -7,7 +7,7 @@ It was created as a passion project in 2021 to help someone close to me automate
 
 ---
 
-## 🧠 Background
+## Background
 
 This program was inspired by a conversation with an appraiser who logged all her work manually on paper. She needed to record:
 - Execution date
@@ -22,21 +22,21 @@ Each month, she would spend hours totaling everything for insurance reports and 
 
 ---
 
-## 🛠 Features
+## Features
 
-- 📋 **Data Entry Form**  
+- **Data Entry Form**  
   Easily input daily customer and appraisal info into the database via a user-friendly GUI.
 
-- 📆 **Monthly Reports**  
+- **Monthly Reports**  
   Choose a month and view:
   - Total appraisal value
   - Total kilometers driven
   - Profit estimation (based on percentage of appraisals)
 
-- 🗑️ **Delete All Data**  
+- **Delete All Data**  
   Clear all entries with a single button (useful for fresh months or tests).
 
-- 💾 **Local Database**  
+- **Local Database**  
   Uses SQLite; auto-creates the database table if not already present.
 
 - 📊 **Two Ways to View Data**  
@@ -45,7 +45,7 @@ Each month, she would spend hours totaling everything for insurance reports and 
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Language**: Python  
 - **GUI**: Tkinter  
@@ -53,7 +53,7 @@ Each month, she would spend hours totaling everything for insurance reports and 
 
 ---
 
-## 💡 Lessons Learned
+## Lessons Learned
 
 Creating this app taught me:
 - Basics of Python programming
@@ -66,13 +66,13 @@ I'm now a computer science student, and this was the project that started it all
 
 ---
 
-## 📸 Screenshot
+## Screenshot
 
 ![GUI Screenshot](./images/gui.png)
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Make sure Python 3 is installed.
 2. Clone the repository and navigate into the project folder:
@@ -85,12 +85,12 @@ I'm now a computer science student, and this was the project that started it all
 
 ---
 
-## 📝 License
+## License
 
 This was a personal, non-commercial project — feel free to use or improve it for learning or similar real-world needs.
 
 ---
 
-🙌 Acknowledgments
+Acknowledgments
 
 Thanks to the person who inspired this — for sharing a real-world challenge that pushed me to build something meaningful.
