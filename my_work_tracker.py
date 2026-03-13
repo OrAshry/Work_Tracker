@@ -63,6 +63,15 @@ def delete_data():
     conn.close()    
 
 
+# Add a zero to the month if needed function
+def add_zero(month):
+    digits = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+
+    if month in digits:
+        return "0" + month
+    return month
+
+
 # Sum_profit function
 pick_a_month_profit = Entry(App, width=15, highlightthickness=2, highlightbackground="black")
 pick_a_month_profit.place(x=300, y=603)
@@ -70,8 +79,10 @@ def sum_profit() :
     conn = sqlite3.connect("Work Database.db")
     c = conn.cursor()
     c.execute("SELECT SUM(Profit_before_tax) FROM data WHERE substr(Execution_date,4 ,2) = :The_month_she_choose",
-              {'The_month_she_choose': pick_a_month_profit.get()})
+              {'The_month_she_choose': add_zero(pick_a_month_profit.get())})
     fetch_data_profit = c.fetchone()[0]
+    if fetch_data_profit is None:
+        fetch_data_profit = "0"
     print_fetch_data = "Sum of profit: " + str(fetch_data_profit) + " ILS"
     summary_label = Label(App, text=print_fetch_data)
     summary_label.place(x=200, y=730)
@@ -88,8 +99,10 @@ def sum_appraisals():
     conn = sqlite3.connect("Work Database.db")
     c = conn.cursor()
     c.execute("SELECT SUM(Sum_of_appraisals) FROM data WHERE substr(Execution_date, 4, 2) = :The_month_she_choose",
-              {'The_month_she_choose': pick_a_month_appraisals.get()})
+              {'The_month_she_choose': add_zero(pick_a_month_appraisals.get())})
     fetch_data_appraisals = c.fetchone()[0]
+    if fetch_data_appraisals is None:
+        fetch_data_appraisals = "0"
     print_fetch_data = "Sum of appraisals: " + str(fetch_data_appraisals) + " ILS"
     summary_label = Label(App, text=print_fetch_data)
     summary_label.place(x=200, y=730)
@@ -101,13 +114,17 @@ def sum_appraisals():
 
 # Sum KM function
 pick_a_month_km = Entry(App, width=15, highlightthickness=2, highlightbackground="black")
+pick_a_month_km = add_zero(pick_a_month_km)
 pick_a_month_km.place(x=300, y=683)
+
 def sum_km():
     conn = sqlite3.connect("Work Database.db")
     c = conn.cursor()
     c.execute("SELECT SUM(KM_per_day) FROM data WHERE substr(Execution_date, 4, 2) = :The_month_she_choose",
-              {'The_month_she_choose': pick_a_month_km.get()})
+              {'The_month_she_choose': add_zero(pick_a_month_km.get())})
     fetch_data_km = c.fetchone()[0]
+    if fetch_data_km is None:
+        fetch_data_km = "0"
     print_fetch_data = "Sum KM driven: " + str(fetch_data_km) + " KM"
     summary_label = Label(App, text=print_fetch_data)
     summary_label.place(x=200, y=730)
