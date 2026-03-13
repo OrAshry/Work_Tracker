@@ -39,7 +39,7 @@ Each month, she would spend hours totaling everything for insurance reports and 
 - **Local Database**  
   Uses SQLite; auto-creates the database table if not already present.
 
-- 📊 **Two Ways to View Data**  
+- **Two Ways to View Data**  
   - Through the built-in monthly summary GUI section  
   - Or via external tools like [DB Browser for SQLite](https://sqlitebrowser.org/)
 
