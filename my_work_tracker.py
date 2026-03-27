@@ -4,9 +4,9 @@ import sqlite3
 
 # App base
 App = Tk()
-App.geometry("520x780")
+App.geometry("600x780")
 App.title("My Work Tracker")
-heading = Label(text="My Work Tracker",bg="black",fg="white",font="150",width="500",height="3")
+heading = Label(text="My Work Tracker",bg="black",fg="white",font=("Ariel", 12, "bold"),width="500",height="2")
 heading.pack()
 
 # database
@@ -201,7 +201,7 @@ Button_4.place(x=135, y=640)
 
 
 # Sum KM 
-Button_5 = Button(App,text="Sum KM", command=sum_km, width="15", height="2", bg="black", fg="black", font="10")
+Button_5 = Button(App,text="Sum KM", command=sum_km, width="15", height="2", bg="black", fg="black", font="12")
 Button_5.place(x=135, y=680)
 
 
