@@ -68,7 +68,7 @@ I'm now a computer science student, and this was the project that started it all
 
 ## Screenshot
 
-![GUI Screenshot](./images/gui.png)
+![GUI Screenshot](./images/new_GUI.png)
 
 ---
 
